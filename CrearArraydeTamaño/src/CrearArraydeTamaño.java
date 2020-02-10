@@ -13,7 +13,7 @@ public class CrearArraydeTamaño {
 		
 		System.out.println("Introduzca la longitud del array: ");
 		
-		int longitud = teclado.next.Int();
+		int longitud = teclado.nextInt();
 		
 		int miArray[] = new int[longitud];
 		
@@ -22,7 +22,7 @@ public class CrearArraydeTamaño {
 			int valor = teclado.nextInt();
 			miArray[posicion] = valor;
 			
-		
+		}
 		for (int posicion = 0; posicion < longitud; posicion++) {
 				System.out.println("el valor introducido: " + miArray[posicion]);
 				
