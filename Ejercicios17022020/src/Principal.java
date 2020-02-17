@@ -1,8 +1,10 @@
 
-public class Ejercicios17022020 {
+public class Principal {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		
 
 	}
 
