@@ -27,7 +27,7 @@ public class Principal {
 		
 		double area;
 		
-		area = miCirculo.getArea();
+		area = miCirculo.getArea(8);
 		
 		System.out.println("El area del primer circulo es: " + area);
 
