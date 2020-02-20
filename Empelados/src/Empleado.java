@@ -21,7 +21,7 @@ public Empleado(String nombre, String apellido, double salario) {
 
 	}
 
-public Empleado(Int id, String nombre, String apellido, double salario) {
+public Empleado(int id, String nombre, String apellido, double salario) {
 	System.out.println("Constructor con datos");
 	this.id = id;
 	this.nombre = nombre;
@@ -29,8 +29,19 @@ public Empleado(Int id, String nombre, String apellido, double salario) {
 	this.salario = salario;
 
 	}
-	//getters y setters
-	public double getSalary() {
+	//getters
+	public double getSalario() {
 	return this.salario;
+	}
+	
+	//Setter
+	
+	public void setSalario(double salario) {
+		this.salario = salario;
+	}
+	
+	//toString
+	public String toString() {
+		return "soy el empleado" + this.nombre + "cobro " + this.salario + " $";
 	}
 }
