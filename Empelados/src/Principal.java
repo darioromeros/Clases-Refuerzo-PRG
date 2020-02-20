@@ -6,8 +6,9 @@ public class Principal {
 
 	Empleado miEmpleado1 = new Empleado();
 	
-	Empleado miEmpleado2 = new Empleado("Manolo", "Lopez", 1500);
+	Empleado miEmpleado2 = new Empleado(2, "Manolo", "Lopez", 1500);
 	
+	System.out.println(b);
 		
 	}
 
