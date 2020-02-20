@@ -30,7 +30,7 @@ public class Circulo {
 		
 	public double getArea(double radio) {
 		// logica asociada a calcular area
-		System.out.println("El segundo metodo")
+		System.out.println("El segundo metodo");
 		double area = Math.PI * radio * radio;
 		return area;
 	}
