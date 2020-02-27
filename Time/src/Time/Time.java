@@ -33,7 +33,7 @@ public class Time {
 		int numeroFinalMinutos = numeroTotalMinutos - (numeroHoras * 60);
 		
 		this.horas = this.horas + numeroHoras;		
-		this.minutos = minutos + numeroFinalMinutos;
+		this.minutos = numeroFinalMinutos;
 		
 	}
 }

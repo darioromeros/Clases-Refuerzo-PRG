@@ -4,11 +4,11 @@ public class Principal {
 
 	public static void main(String[] args) {
 		
-		Time miTiempo = new Time(2, 23, 45);
+		Time miTiempo = new Time(2, 23, 57);
 		
 		miTiempo.getHoras();
 		
-		System.out.println("horas" + miTiempo.getHoras());
+		System.out.println("horas: " + miTiempo.getHoras());
 		
 		miTiempo.setHoras(5);
 		
@@ -18,7 +18,7 @@ public class Principal {
 		
 		System.out.println("toString de horas: " + cadena);
 		
-		Time miotroTiempo = new Time(2,4);
+		Time miOtroTiempo = new Time(2,4, 0);
 		
 		miTiempo.aumentarMinutos(50);
 		
