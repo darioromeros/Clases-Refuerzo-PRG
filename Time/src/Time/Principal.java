@@ -13,6 +13,11 @@ public class Principal {
 		miTiempo.setHoras(5);
 		
 		System.out.println("nuevas horas: " + miTiempo.getHoras());
+		
+		String cadena = miTiempo.toString();
+		
+		System.out.println("toString de horas: " + cadena);
+		
 	}
 
 }

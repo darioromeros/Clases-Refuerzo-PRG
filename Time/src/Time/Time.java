@@ -4,7 +4,7 @@ public class Time {
 	private int horas;
 	private int minutos;
 	private int segundos;
-	
+
 	public Time(int horas, int minutos, int segundos) {
 	
 		this.horas = horas;
@@ -13,11 +13,16 @@ public class Time {
 	}
 	//getter
 	public int getHoras() {
-	return this.horas;
+		return this.horas;
 	}
-	
-	//setter
+
+	// setter
 	public void setHoras(int horas) {
 		this.horas = horas;
+	}
+
+	public String toString() {
+		// hh:mm:ss
+		return this.horas + ":" + this.minutos + ":" + this.segundos;
 	}
 }
