@@ -3,7 +3,7 @@ package Time;
 public class Principal {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		Time miTiempo = new Time(2, 23, 45);
 		
 		miTiempo.getHoras();
@@ -17,6 +17,12 @@ public class Principal {
 		String cadena = miTiempo.toString();
 		
 		System.out.println("toString de horas: " + cadena);
+		
+		Time miotroTiempo = new Time(2,4);
+		
+		miTiempo.aumentarMinutos(50);
+		
+		System.out.println("Minutos Aumentados: " + miTiempo);
 		
 	}
 

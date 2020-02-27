@@ -25,4 +25,15 @@ public class Time {
 		// hh:mm:ss
 		return this.horas + ":" + this.minutos + ":" + this.segundos;
 	}
+	
+	public void aumentarMinutos(int minutos) {
+		int numeroTotalMinutos = this.minutos + minutos;
+		
+		int numeroHoras = numeroTotalMinutos /60;
+		int numeroFinalMinutos = numeroTotalMinutos - (numeroHoras * 60);
+		
+		this.horas = this.horas + numeroHoras;		
+		this.minutos = minutos + numeroFinalMinutos;
+		
+	}
 }
