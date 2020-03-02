@@ -11,6 +11,11 @@ public class Date {
 		this.dia = dia;
 	}
 	
+	public Date() {
+		this.ano =2020;
+		this.mes = mes;
+		this.dia = dia;
+	}
 	//getAno
 	public int getAno() {
 		return this.ano;
@@ -63,6 +68,6 @@ public class Date {
 		
 		this.ano = this.ano + anos;
 		
-		this.mes = this.mes - anos * 12;
+		this.mes = mesesTotales - anos * 12;
 	}
 }
