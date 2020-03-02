@@ -57,5 +57,12 @@ public class Date {
 	
 	public void aumentarMes(int mes) {
 		
+		int mesesTotales = (this.mes + mes);
+		int anos = mesesTotales / 12;
+		
+		
+		this.ano = this.ano + anos;
+		
+		this.mes = this.mes - anos * 12;
 	}
 }
