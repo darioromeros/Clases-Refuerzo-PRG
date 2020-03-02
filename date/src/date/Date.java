@@ -22,11 +22,11 @@ public class Date {
 		this.ano = ano;
 	}
 	
-	public int getMes() {
+	public void getMes() {
 		this.mes = mes;
 	}
 	
-	public int getDia() {
+	public void getDia() {
 		this.dia = dia;
 	}
 	
