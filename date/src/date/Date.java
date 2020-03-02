@@ -5,7 +5,7 @@ public class Date {
 	private int mes;
 	private int dia;
 	
-	public Date(int ano, int mes, int dia) {
+	public Date(int dia, int mes, int ano) {
 		this.ano = ano;
 		this.mes = mes;
 		this.dia = dia;
@@ -22,12 +22,40 @@ public class Date {
 		this.ano = ano;
 	}
 	
-	public void getMes() {
+	public int getMes() {
+		return this.mes = mes;
+	}
+	
+	public void setMes() {
 		this.mes = mes;
 	}
 	
-	public void getDia() {
+	public int getDia() {
+		return this.dia = dia;
+	}
+	public void setDia() {
 		this.dia = dia;
 	}
 	
+	public String toString() {
+		String dia;
+		String mes;
+		
+		if(this.dia > 9 ) {
+			dia = "" + this.dia;
+		}else {
+			dia = "0" + this.dia;
+		}
+		
+		if (this.mes > 9) {
+			mes= "" + this.mes;
+		} else {
+			mes = "0" + this.mes;
+		}
+		return dia + "/" + this.mes + "/" + this.ano;
+	}
+	
+	public void aumentarMes(int mes) {
+		
+	}
 }
