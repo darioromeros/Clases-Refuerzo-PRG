@@ -16,7 +16,7 @@ public class Circulo {
 		this.radio = radio;
 	}
 	
-	public Circulo(double radio, string color) {
+	public Circulo(double radio, String color) {
 		System.out.println("Inicializando el objeto con radio y color");
 		this.radio = radio;
 		this.color = color;
@@ -27,6 +27,7 @@ public class Circulo {
 		System.out.println("El primer metodo");
 		double area = Math.PI * radio * radio;
 		return area;
+	}
 		
 	public double getArea(double radio) {
 		// logica asociada a calcular area
