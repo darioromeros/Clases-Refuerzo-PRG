@@ -26,6 +26,15 @@ public class Point {
 	}
 	
 	public String toString() {
-		return "(" + this.x + ""
+		return "(" + this.x + ", " + this.y + ");"
 	}
+	
+	public double calculateDistance(int x, int y) {
+		double distance;
+		
+		int legA = this.y - y;
+		
+		return distance;
+	}
+	
 }
