@@ -8,7 +8,13 @@ public class Principal {
 		
 		Vehiculo miVehiculo = new Vehiculo("4444-TTF", "turismo", 190, miConductor);
 		
+		System.out.println(miVehiculo.getConductor().nombre);
 		
+		Conductor miotroConductor = miVehiculo.getConductor();
+		
+		String miNombre = miOtroConductor.nombre;
+		
+		System.out.println(miNombre);
 	}
 
 }
