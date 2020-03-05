@@ -26,15 +26,21 @@ public class Point {
 	}
 	
 	public String toString() {
-		return "(" + this.x + ", " + this.y + ");"
+		return "(" + this.x + ", " + this.y + ")";
 	}
 	
 	public double calculateDistance(int x, int y) {
 		double distance;
 		
-		int legA = this.y - y;
+		int legA = Math.abs(this.y - y);
+		int legB = Math.abs(this.x - x);
+		
+		distance = Math.sqrt(legA * legA + legB * legB);
 		
 		return distance;
 	}
 	
+	public double calculateDistance(Point miOtroPunto) {
+		return this.calculateDistance(miOtroPunto.getX(), miOtroPunto.getY());
+	}
 }
