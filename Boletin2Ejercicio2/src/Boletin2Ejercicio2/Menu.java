@@ -11,7 +11,7 @@ public class Menu {
 		System.out.println("5. - Calcular el area del Círculo");
 	}
 
-	^public static double seleccionYCalcularArea(int opcion) {
+	public static double seleccionYCalcularArea(int opcion) {
 		
 		switch (opcion) {
 		case 1:
@@ -21,4 +21,5 @@ public class Menu {
 		} 
 		
 		return 0;
-}
+	}
+}	

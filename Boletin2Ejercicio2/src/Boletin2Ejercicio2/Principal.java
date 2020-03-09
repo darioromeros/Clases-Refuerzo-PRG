@@ -17,12 +17,19 @@ public class Principal {
 		
 		int option = teclado.nextInt();
 		
+		double resultado = Menu.seleccionYCalcularArea(option);
+		
+		System.out.println(resultado);
+		
 		//atributo estatico
 	//	System.out.println("el numero pi es" + Math.PI);
 		
+		/* 
 		Triangulo miTriangulo = new Triangulo(3, 4, "rojo");
 		
 		System.out.println("el color es: " + miTriangulo.getColor());
-	}
+		*/
+	} 
+		
 
 }
