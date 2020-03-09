@@ -17,6 +17,6 @@ public class Triangulo extends FiguraGeometrica {
 	}
 	
 	public String toString() {
-		return super.toString() + "mi altura es: " + this.altura + "mi base es: " + this.base;
+		return super.toString() + " mi altura es: " + this.altura + " mi base es: " + this.base;
 	}
 }
