@@ -12,7 +12,11 @@ public class Triangulo extends FiguraGeometrica {
 		this.base = base;
 	}
 	
-	public double calcularAres() {
+	public double calcularArea() {
 		return (altura * base) / 2;
+	}
+	
+	public String toString() {
+		return super.toString() + "mi altura es: " + this.altura + "mi base es: " + this.base;
 	}
 }
